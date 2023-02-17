@@ -102,9 +102,7 @@ music {
     
     @keyframes myanimation {
       0% {background-color: black;}
-      25%{background-color:#012b2b;}
       50%{background-color:rgb(1, 50, 1);}
-      75%{background-color:#00005a;}
-      100% {background-color: #351941;}
-     
+      100%{background-color:#00005a;}
+  
     }
