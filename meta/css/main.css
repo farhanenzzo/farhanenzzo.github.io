@@ -1,107 +1,110 @@
 music {
-    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 3px 3px;
-    color: #f5efef;
-    text-decoration: none;
-    }
-    
-    music:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: 0 100%;
-    background-size: auto 6px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-    cursor:pointer;
-    }
-    
-    /* ---------------------------------- */
-    
-    *, *:before, *:after {
-      margin:0;
-      padding:0;
-      -webkit-box-sizing:border-box;
-      -moz-box-sizing:border-box;
-      box-sizing:border-box;
-    }
-    body {
-      padding:3em 1em;
-      font-family: 'Ubuntu Mono', sans-serif;
-      line-height:1.6em;
-      color:white;
-      background:black;
-      /* background:#0a0a0a; */
-    }
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: #f5efef;
+  text-decoration: none;
+}
 
-    i {font-style:normal;color:#00ff77;}
-    texcol2{font-style: normal; color: #F39C12;}
-    texcol3{font-style: normal; color: #8E44AD;}
-    h1, p, hr, .etc {
-      width:100%;
-      max-width:40rem;
-      margin:0 auto;
-    }
-    p {padding-bottom:1em;}
-    h1 {
-      position:relative;
-      padding:2rem 0 3rem 0;
-      font-size:2em;
-      line-height:1em;
-      font-weight:700;
-      text-transform:uppercase;
-      letter-spacing:4px;
-    }
+music:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  cursor:pointer;
+}
 
-    hr {
-      position:relative;
-      padding:3rem 0;
-      border:none;
-    }
-    hr:before {
-      content:'\2044\2217\2013\2013\2013\2013\2013\2217\2044';
-      position:absolute;
-      top:1.2rem;
-      right:0;
-      left:0;
-      font-size:1.5em;
-      color:#0200fb;
-      text-align:center;
-    }
-    .etc {
-      position:relative;
-      padding:6rem 0 1rem 0;
-      text-align:center;
-      color:#fe0002;
-    }
-    .etc a {color:#fe0002;}
-    .etc:before {
-      content:'\2022';
-      position:absolute;
-      top:1rem;
-      left:50%;
-      color:white;
-      text-shadow:0 1rem 0 white,
-                  0 2rem 0 white;
-    }
-    
-    img {
-      border: 1px solid rgb(227, 219, 255);
-      /* border-radius: 50%; */
-    }
+/* ---------------------------------- */
 
-    /* --------------- */
+*, *:before, *:after {
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
 
-    .mydiv {
-      width:100%;
-      height:100%;
-      color:rgb(255, 255, 255);
-      font-weight:bold;
-      animation: myanimation 10s infinite;
-    }
-    
-    @keyframes myanimation {
-      0% {background-color: black;}
-      50%{background-color:rgb(1, 50, 1);}
-      100%{background-color:#00005a;}
-    }
+body {
+  font-family: 'Ubuntu Mono', sans-serif;
+  line-height:1.6em;
+  color:white;
+  background:black;
+}
+
+i {font-style:normal;color:#00ff77;}
+texcol2{font-style: normal; color: #F39C12;}
+texcol3{font-style: normal; color: #8E44AD;}
+texcol4{font-style: normal; color: black;}
+
+h1, p, hr, .etc {
+  width:100%;
+  max-width:40rem;
+  margin:0 auto;
+}
+p {padding-bottom:1em;}
+h1 {
+  position:relative;
+  padding:2rem 0 3rem 0;
+  font-size:2em;
+  line-height:1em;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:4px;
+}
+
+hr {
+  position:relative;
+  padding:3rem 0;
+  border:none;
+}
+hr:before {
+  content:'\2044\2217\2013\2013\2013\2013\2013\2217\2044';
+  position:absolute;
+  top:1.2rem;
+  right:0;
+  left:0;
+  font-size:1.5em;
+  color:#0200fb;
+  text-align:center;
+}
+.etc {
+  position:relative;
+  padding:6rem 0 1rem 0;
+  text-align:center;
+  color:#fe0002;
+}
+.etc a {color:#fe0002;}
+.etc:before {
+  content:'\2022';
+  position:absolute;
+  top:1rem;
+  left:50%;
+  color:white;
+  text-shadow:0 1rem 0 white,
+              0 2rem 0 white;
+}
+
+img {
+  border: 1px solid rgb(227, 219, 255);
+  /* border-radius: 50%; */
+}
+
+/* --------------- */
+
+.mydiv {
+  width:100%;
+  height:100%;
+  color:rgb(255, 255, 255);
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: black;}
+  50%{background-color:rgb(1, 50, 1);}
+  100%{background-color:#00005a;}
+}
+
+/* ------------------------------------------------- */

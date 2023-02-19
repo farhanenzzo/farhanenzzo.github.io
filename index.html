@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700">
   <link rel="stylesheet" href="meta/css/main.css"/>
+  <link rel="stylesheet" href="meta/sass/main.css">
+                
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,23 +19,44 @@
 </head>
 <body>
 
-<audio id="audio">
-  <source src="meta/Naruto.mp3" type="audio/mp3">
-</audio>
+  <div class="fullscreen-container" >
+    <div class="message-box message-box-1 opacity-0 show">
+      <p class="msg1">Hello, World!</p>
+      <p class="msg2">Stay safe</p>
+      <footer>English</footer>
+    </div>
 
-<i>
-  <ion-icon name="bug-outline"></ion-icon>
-</i>
+    <div class="message-box message-box-2">
+      <p class="msg1"></p>
+      <p class="msg2"></p>
+      <footer></footer>
+    </div>
+  
+  </div>
 
-<music>
-  <i id="playPauseTxt" onclick="playPause()">Music Off</i>
-</music>
-<br>
-<br>
+  <br>
 
-<h1 class="typewrite" data-period="2000" data-type='[ "Welcome folks!", "im Farhan ahmed", "A full stack web developer", "I love Java, python"]'></h1>
+  <div style="text-align: center;">
 
-<hr>
+    <div>
+      <audio id="audio">
+        <source src="meta/music/when.mp3" type="audio/mp3">
+      </audio>
+    </div>
+
+    <ion-icon name="bug-outline"></ion-icon>
+
+    <music>
+      <i id="playPauseTxt" onclick="playPause()">Music Off</i>
+    </music>
+
+  </div>
+   
+  <br>
+
+<!-- <h1 class="typewrite" data-period="2000" data-type='[ "Welcome folks!", "im Farhan ahmed", "A full stack web developer", "I love Java, python"]'></h1> -->
+
+<!-- <hr> -->
 
 <p>
   Hi there! My name is Farhan Ahmed, 
