@@ -301,3 +301,4 @@ const displayMessageBox = (index) => {
 };
 // kick off timer animation
 animationTimer();
+
