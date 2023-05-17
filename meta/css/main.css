@@ -156,9 +156,7 @@ img {
   font-family: consolas, courier new, fixed, monospace,unifont;
 }
 
-
-#colorful-text {
-  animation: colorChange 5s infinite;
+.text-with-padding {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-
